@@ -2,7 +2,7 @@
 
 A theme for generating plots with Altair matching spaCy's branding.
 
-**Note**: The `spacy-mono` theme uses [JetBrains Mono](https://www.jetbrains.com/lp/mono/)), which is open source and free. You'll need to download it before local use.
+**Note**: The `spacy-mono` theme uses [JetBrains Mono](https://www.jetbrains.com/lp/mono/), which is open source and free. You'll need to download it before local use.
 
 ## Install
 
@@ -51,4 +51,4 @@ Continuous Color Scale
 
 ## Notes
 
-The default blue used in the theme is not the standard spaCy blue (`#09a3d5`), but the darker variant (`#1f70b1`). This is so the color exceeds a 3:1 contrast ratio following [WCAG AA guidelines](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Perceivable/Color_contrast).
+The default blue used in the theme is not the standard spaCy blue ([`#09a3d5`](https://webaim.org/resources/contrastchecker/?fcolor=09A3D5&bcolor=FFFFFF)), but the darker variant ([`#1f70b1`](https://webaim.org/resources/contrastchecker/?fcolor=1f70b1&bcolor=FFFFFF)). This is so the color exceeds a 3:1 contrast ratio following [WCAG AA guidelines](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Perceivable/Color_contrast).

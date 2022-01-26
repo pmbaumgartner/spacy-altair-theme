@@ -47,7 +47,7 @@ Monospace Theme
 
 Continuous Color Scale
 
-![Example Continuous Color Scale](examples/stars-continuous.png)
+![Example Continuous Color Scale](examples/stars-continuous.svg)
 
 ## Notes
 

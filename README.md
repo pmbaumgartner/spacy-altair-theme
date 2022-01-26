@@ -31,7 +31,7 @@ alt.Chart(df, title="Flipper Length by Species", width=400, height=300).mark_bar
 )
 ```
 
-<img src="examples/penguins.png" width="600">
+![Example Penguin Plot](examples/penguins.svg)
 
 ## Examples
 
@@ -39,16 +39,18 @@ Data from [star-history.com](https://star-history.com/).
 
 Base Theme
 
-<img src="examples/stars.png" width="600">
+![Example Line Plot - Base Theme](examples/stars.svg)
 
 Monospace Theme
 
-<img src="examples/stars-mono.png" width="600">
+![Example Line Plot - Mono Theme](examples/stars-mono.svg)
 
 Continuous Color Scale
 
-<img src="examples/stars-continuous.png" width="600">
+![Example Continuous Color Scale](examples/stars-continuous.png)
 
 ## Notes
 
 The default blue used in the theme is not the standard spaCy blue ([`#09a3d5`](https://webaim.org/resources/contrastchecker/?fcolor=09A3D5&bcolor=FFFFFF)), but the darker variant ([`#1f70b1`](https://webaim.org/resources/contrastchecker/?fcolor=1f70b1&bcolor=FFFFFF)). This is so the color exceeds a 3:1 contrast ratio following [WCAG AA guidelines](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Perceivable/Color_contrast).
+
+![test](examples/visualization(2).svg)

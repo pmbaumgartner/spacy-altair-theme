@@ -28,15 +28,21 @@ spacy_diverging = [
     "#09a4d7",
 ]
 
+# --font-size-xs: 1.1rem;
+# --font-size-sm: 1.3rem;
+# --font-size-md: 1.35rem;
+# --font-size-lg: 1.4rem;
+# --font-size-code: 1.2rem;
+
 
 def spacy_base_theme():
     primary_color = "#077fa6"
     font_color = "#1a1e23"
     grey_color = "#f5f5f5"
-    base_size = 21.6
-    lg_font = 22.4
-    sm_font = 20.8
-    xs_font = 17.6
+    base_size_px = 16
+    md_font = base_size_px
+    sm_font = base_size_px * 0.8
+    lg_font = base_size_px * 1.35
 
     config = {
         "config": {
@@ -55,7 +61,7 @@ def spacy_base_theme():
             },
             "axis": {
                 "titleColor": font_color,
-                "titleFontSize": sm_font,
+                "titleFontSize": md_font,
                 "labelColor": font_color,
                 "labelFontSize": sm_font,
                 "gridColor": grey_color,
@@ -63,14 +69,14 @@ def spacy_base_theme():
                 "tickColor": "#fff",
             },
             "header": {
-                "labelFontSize": base_size,
-                "titleFontSize": base_size,
+                "labelFontSize": md_font,
+                "titleFontSize": md_font,
             },
             "legend": {
                 "titleColor": font_color,
-                "titleFontSize": sm_font,
+                "titleFontSize": md_font,
                 "labelColor": font_color,
-                "labelFontSize": xs_font,
+                "labelFontSize": sm_font,
             },
             "range": {
                 "category": spacy_category,
@@ -86,14 +92,14 @@ def spacy_base_theme():
 
 def spacy_mono_theme():
     font = "JetBrains Mono"
-    bold_font = "JetBrains Mono"
     primary_color = "#077fa6"
     font_color = "#1a1e23"
     grey_color = "#f5f5f5"
-    base_size = 19.2  # smaller base size for this font
-    lg_font = base_size * 1.03703704  # proportion from website sizes
-    sm_font = base_size * 0.96296296  # proportion from website sizes
-    xs_font = base_size * 0.81481481  # proportion from website sizes
+    base_size_px = 16
+    md_font = base_size_px
+    sm_font = base_size_px * 0.8
+    lg_font = base_size_px * 1.35
+
     config = {
         "config": {
             "arc": {"fill": primary_color},
@@ -106,14 +112,14 @@ def spacy_mono_theme():
             "shape": {"stroke": primary_color},
             "symbol": {"fill": primary_color},
             "title": {
-                "font": bold_font,
+                "font": font,
                 "color": font_color,
                 "fontSize": lg_font,
             },
             "axis": {
-                "titleFont": bold_font,
+                "titleFont": font,
                 "titleColor": font_color,
-                "titleFontSize": sm_font,
+                "titleFontSize": md_font,
                 "labelFont": font,
                 "labelColor": font_color,
                 "labelFontSize": sm_font,
@@ -123,17 +129,17 @@ def spacy_mono_theme():
             },
             "header": {
                 "labelFont": font,
-                "titleFont": bold_font,
-                "labelFontSize": base_size,
-                "titleFontSize": base_size,
+                "titleFont": font,
+                "labelFontSize": md_font,
+                "titleFontSize": md_font,
             },
             "legend": {
-                "titleFont": bold_font,
+                "titleFont": font,
                 "titleColor": font_color,
-                "titleFontSize": sm_font,
+                "titleFontSize": md_font,
                 "labelFont": font,
                 "labelColor": font_color,
-                "labelFontSize": xs_font,
+                "labelFontSize": sm_font,
             },
             "range": {
                 "category": spacy_category,
